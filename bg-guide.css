@@ -21,6 +21,7 @@ body {
 }
 
 .toolbar {
+	
 	background-color:rgb(29, 40, 41);
 	width: fit-content;
 	list-style-type: none;
@@ -33,7 +34,7 @@ body {
 	overflow: hidden;
 }
 
-li {
+.top-li {
 	float: left;
 }
 
@@ -54,3 +55,36 @@ a.top:hover{
 	margin-top: 20px;
 	text-align: center;
 }
+
+.foot {
+	text-align: center;
+	width:100%;
+	background-color: black;
+	position: absolute;
+	bottom: 0px;
+}
+
+.ath-ul {
+	text-align: center;
+	list-style-type: none;
+	display: box;
+	position:relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	overflow: hidden;
+	
+}
+
+.foot-li {
+	float: left;
+}
+
+.link-f {
+	color:white;
+	text-decoration: none;
+}
+
+a.link-f:hover {
+	color:white;
+}
+
